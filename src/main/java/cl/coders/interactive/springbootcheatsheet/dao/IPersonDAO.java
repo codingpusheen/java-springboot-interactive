@@ -6,5 +6,5 @@ import cl.coders.interactive.springbootcheatsheet.entity.Person;
 
 public interface IPersonDAO {
 
-	  List<Person> getAllArticles();
+	  List<Person> getAllPersons();
 }

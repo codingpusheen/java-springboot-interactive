@@ -17,7 +17,7 @@ public class PersonDAO implements IPersonDAO{
 	private EntityManager entityManager;
 	
 	@Override
-	public List<Person> getAllArticles() {
+	public List<Person> getAllPersons() {
 		String hql = "FROM Person as p ORDER BY p.personId";
 		return (List<Person>) entityManager.createQuery(hql).getResultList();
 	}
