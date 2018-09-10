@@ -18,8 +18,17 @@ public class PersonDAO implements IPersonDAO{
 	
 	@Override
 	public List<Person> getAllPersons() {
-		String hql = "FROM Person as p ORDER BY p.personId";
-		return (List<Person>) entityManager.createQuery(hql).getResultList();
+		
+		try {
+			
+			String hql = "FROM Person as p ORDER BY p.personId";
+			return (List<Person>) entityManager.createQuery(hql).getResultList();
+			
+		} catch(Exception e) {
+			e.printStackTrace();
+			return null;
+		}
+
 	}
 
 }
