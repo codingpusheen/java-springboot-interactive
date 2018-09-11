@@ -1,6 +1,10 @@
 # java-springboot-interactive
 A simple Java-SpringBoot web app with functional code examples for web-java developers reference.
 
+Changelog
+
+11-09-2018: I found a nice and simple bootstrap template with a side bar nav, made some changes like the color and what modules i'm working with. Time to work with java backend and web forms.
+
 10-09-2018: Don't expect too much at this point, I just started this a week ago and I have a lot of ideas flying around. My main goal now was to simple throw a minimal and simple spring-boot web app connected to cloud foundry and a external mysql database (not embedded pivotal mysql database). This is done so I can start to develop the real thing fullstack.
 
 What is this?
