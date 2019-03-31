@@ -29,5 +29,25 @@ public class CourseController {
         
         return mav;
     }
+	
+	@GetMapping("/newCourse")
+    public ModelAndView newCourse() {
+		 
+		ModelAndView mav = new ModelAndView();
+        
+        return mav;
+    }
+	
+	@GetMapping("/modifyCourse")
+    public ModelAndView modifyCourse() {
+		 
+		ModelAndView mav = new ModelAndView();
+        
+        return mav;
+    }
+	
+	
+	
+
 
 }

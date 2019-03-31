@@ -17,8 +17,6 @@ public class PersonService implements IPersonService {
 	@Override
 	public List<Person> getAllPersons() {
 		
-		
-		
 		return personDAO.getAllPersons();
 	}
 	

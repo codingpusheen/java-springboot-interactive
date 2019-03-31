@@ -48,10 +48,10 @@
                     <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">CRUD App</a>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
                         <li>
-                            <a href="#">New Record</a>
+                            <a href="/newCourse">New Record</a>
                         </li>
                         <li>
-                            <a href="#">GRID List</a>
+                            <a href="/listCourses">GRID List</a>
                         </li>
                     </ul>
                 </li>
